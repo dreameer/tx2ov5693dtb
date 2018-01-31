@@ -1,0 +1,7 @@
+
+ov5693目录下为摄像头的dtb文件，更新方法如下
+
+sudo dd if=tegra186-quill-p3310-1000-c03-00-base-xcblite.dtb of=/dev/mmcblk0p15
+
+测试方法：
+nvgstcapture
